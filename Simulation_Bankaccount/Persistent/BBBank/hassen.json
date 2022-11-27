@@ -1,0 +1,32 @@
+[
+  {
+    "CLASSNAME": "IncomingTransfer",
+    "INSTANCE": {
+      "date": "04.12.21",
+      "amount": 100.0,
+      "description": "description_1",
+      "sender": "Hassen",
+      "recipient": "Dali"
+    }
+  },
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "date": "05.12.21",
+      "amount": 100.0,
+      "description": "description_2",
+      "sender": "Dali",
+      "recipient": "Hassen"
+    }
+  },
+  {
+    "CLASSNAME": "Payment",
+    "INSTANCE": {
+      "date": "02.12.21",
+      "amount": 100.0,
+      "description": "payment_2",
+      "incomingInterest": 0.5,
+      "outgoingInterest": 0.5
+    }
+  }
+]
